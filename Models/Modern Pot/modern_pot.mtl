@@ -1,0 +1,19 @@
+# Exported by three-d-stage
+newmtl ceramic_sage
+Kd 0.2747 0.3663 0.2623
+Ks 0.2000 0.2000 0.2000
+Ns 40
+d 1.0000
+
+newmtl interior
+Kd 0.0742 0.1022 0.0704
+Ks 0.2000 0.2000 0.2000
+Ns 30
+d 1.0000
+
+newmtl oak
+Kd 0.5520 0.3231 0.1500
+Ks 0.2000 0.2000 0.2000
+Ns 60
+d 1.0000
+

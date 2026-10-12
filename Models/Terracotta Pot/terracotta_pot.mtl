@@ -1,0 +1,19 @@
+# Exported by three-d-stage
+newmtl terracotta
+Kd 0.4793 0.1221 0.0467
+Ks 0.2000 0.2000 0.2000
+Ns 16
+d 1.0000
+
+newmtl interior
+Kd 0.1559 0.0343 0.0137
+Ks 0.2000 0.2000 0.2000
+Ns 16
+d 1.0000
+
+newmtl terracotta_rim
+Kd 0.3515 0.0802 0.0273
+Ks 0.2000 0.2000 0.2000
+Ns 16
+d 1.0000
+

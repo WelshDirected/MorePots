@@ -1,0 +1,48 @@
+# Build output. Attach the DLLs/zips to a GitHub release instead of committing them.
+[Bb]in/
+[Oo]bj/
+dist/
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.zip
+
+# Baked models are committed on purpose (so the mod builds without Python):
+#   Models/*/*.bin  <- keep
+!Models/**/*.bin
+
+# Schedule I / MelonLoader files. They belong to the game and loader, not this repo.
+Mods/
+MelonLoader/
+UserData/
+UserLibs/
+Plugins/
+Schedule I_Data/
+MonoBleedingEdge/
+*.cfg
+Latest.log
+Logs/
+
+# Decompiled game source and reverse-engineering output. Never commit these.
+Decompiled/
+Assembly-CSharp/
+*.cs.bak
+
+# Local reference notes (copied pot stats, not part of the mod)
+currentpot.txt
+
+# Editor and OS noise
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.swp
+*~
+Thumbs.db
+Desktop.ini
+.DS_Store
+build.ps1
+MODLOG.md
+tools/glb_to_pot.py
